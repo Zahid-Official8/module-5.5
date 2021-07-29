@@ -1,0 +1,90 @@
+
+/* pseudo */
+h1{
+    color: goldenrod;
+}
+.special-effect:hover{
+    color: indianred;
+    font-size: 60px;
+    background-color: rgb(0, 252, 218);
+}
+input:focus{
+    color: teal;
+    font-size: 20px;
+    font-weight: bold;
+}
+li:nth-child(3){
+    background-color: indianred;
+}
+a:visited{
+    color: red;
+}
+h1::before{
+    content: 'Hello ';
+    color: burlywood;
+    font-size: 12px;
+    background-color: cornflowerblue;
+}
+.special-effect::after{
+    content: ' Bye';
+    font-size: 15px;
+    background-color: teal;
+}
+
+body {
+    counter-reset: section;                       /* Set a counter named 'section', and its initial value is 0. */
+  }
+  
+  li::before {
+    counter-increment: section;                   /* Increment the value of section counter by 1 */
+    content: "Number " counter(section) ": ";    /* Display the word 'Section ', the value of
+                                                     section counter, and a colon before the content
+                                                     of each h3 */
+  }
+
+
+/* position */
+.container{
+    height: 500px;
+    background-color: lightblue;
+    position: relative;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: lightyellow;
+}
+#first{
+    background-color: lightgreen;
+}
+#second{
+    background-color: lightsalmon;
+    position: static;
+}
+#third{
+    position: absolute;
+    left: 120px;
+    top: 100px;
+    background-color: lightslategrey;
+}
+
+/* power */
+h3{
+    color: cyan !important;
+}
+h3.old{
+    color: darkslategrey;
+}
+.name{
+    color: darkgoldenrod;
+}
+
+/* #world{
+    color: darkorchid;
+} */
+
+
+
+
+
+

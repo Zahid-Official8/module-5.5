@@ -1,0 +1,50 @@
+Question:
+
+1. What are Pseudo-elements?
+2. What are Pseudo-class?
+3. What is the difference between Pseudo-classes vs pseudo-elements?
+4. Using CSS counters
+5. What is the CSS position property?
+6. What is CSS Specificity?
+
+
+
+Answer:
+
+1. A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). For example, ::first-line can be used to change the font of the first line of a paragraph.
+
+2. A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user's pointer hovers over it.
+
+3.The difference between pseudo-classes and pseudo-elements can be a little confusing until you have it spelt out for you. Basically a pseudo-class is a selector that assists in the selection of something that cannot be expressed by a simple selector, for example :hover. A pseudo-element however allows us to create items that do not normally exist in the document tree.
+
+4. CSS counters let you adjust the appearance of content based on its location in a document. For example, you can use counters to automatically number the headings in a webpage. Counters are, in essence, variables maintained by CSS whose values may be incremented by CSS rules to track how many times they're used.
+
+5. The CSS position property defines the position of an element in a document. This property works with the left, right, top, bottom and z-index properties to determine the final position of an element on a page.
+
+6. If there are two or more conflicting CSS rules that point to the same element, the browser follows some rules to determine which one is most specific and therefore wins out.Think of specificity as a score/rank that determines which style declarations are ultimately applied to an element.
+
+
+
+Resourse Link:
+
+Pseudo-Elements:	https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+Pseudo-Class:		https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+ " Class vs Element:	https://www.growingwiththeweb.com/2012/08/pseudo-classes-vs-pseudo-elements.html
+			https://cutt.ly/ZQeSGk2
+			https://cutt.ly/fQeEzc7
+			https://cutt.ly/gQeEmDf
+
+Pseudo Counter:		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Using_CSS_counters
+CSS Position:		https://css-tricks.com/almanac/properties/p/position/
+			https://www.freecodecamp.org/news/learn-the-basics-the-css-position-property/
+			https://cutt.ly/fQrxmI3
+
+CSS Specificity:	https://www.w3schools.com/css/css_specificity.asp
+			https://css-tricks.com/specifics-on-css-specificity/
+			https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
+			https://web.dev/learn/css/specificity/
+
+
+
+
+ 

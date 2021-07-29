@@ -1,0 +1,39 @@
+প্রশ্নঃ
+
+১. Pseudo-elements কি?
+২.  Pseudo-class কি?
+৩. CSS position কি?
+৪. CSS Specificity কি?
+
+
+উত্তরঃ
+
+১. সিএসএস সুডো-এলিমেন্ট দ্বারা একটি এলিমেন্টের নির্দিষ্ট অংশকে সিলেক্ট করে স্টাইল করা হয়।উদাহরণস্বরুপঃ একটি এলিমেন্টের প্রথম অংশ বা প্রথম লাইনের স্টাইল পরিবর্তন।
+একটি এলিমেন্টের পূর্বে এবং পরে কন্টেন্ট যোগ।
+
+২. সিএসএস এর সিডো ক্লাস হল কত গুলো বিশেষ কিওয়ার্ড, যা এইচটিএমএল এলিমেন্ট গুলোর বিশেষ অবস্থায় স্টাইল করতে বাবহার করা হয়। এইচটিএমএল এলিমেন্ট গুলোর সম্পর্কের ওপর অর্থাৎ নেস্তিং এর ভিত্তিতে কাজ করে না। সিডো ক্লাস গুলো কাজ করে এইচটিএমএল এলিমেন্ট গুলোর বিভিন্ন অবস্থা বা state এর ওপর নির্ভর করে।
+
+৩. সিএসএস এর position প্রপার্টি ব্যবহার করে কোন এইচটিএমএল এলিমেন্টের অবস্থান বা position নির্ধারণ করা যায়। একটি এইচটিএমএল এলিমেন্টের সাথে অন্য কোন এইচটিএমএল এলিমেন্ট এর অবস্থান কি রকম হবে বা যদি কোন এইচটিএমএল এলিমেন্ট এর আকার বড় হয় তবে তার অবস্থান কি রকম হবে তা নির্ধারণ করা হয় সিএসএস এর position প্রপার্টি ব্যবহার করে।
+
+৪. CSS Specificity বলতে সিএসএস নির্দিষ্টতা, বা বিশিষ্টতা বুঝানো হয়। অর্থাৎ সিএসএস এর কিছু রুল বা নিয়ম, যা সকল ওয়েব ডিজাইনারদের জেনে রাখা অত্যান্ত জরুরী। না হয়, আপনি কোথাও কোন একটি এলিমেন্টের জন্য সিএসএস লিখছেন, কিন্ত এপ্লাই হচ্ছে না বা কাজ করছে না। কেন করছে না, এই বিষয়টি বুঝতে আপনাকে অবশ্যই সিএসএস এর রুল বা নিয়ম গুলো জানতে হবে। আসুন তাহলে জেনে নিই সিএসএস কোড লিখতে গিয়ে কি কি বিষয় গুলো মাথায় রাখতে হবে।
+
+
+
+রিসোর্সের লিংকঃ
+
+Pseudo Elements:	https://www.sattacademy.com/css/css-pseudo-elements.php
+			http://bangla.salearningschool.com/recent-posts/css-pseudo-elements/
+
+Pseudo Classes:		http://www.websschool.com/css/css-pseudo-class.html
+			http://bangla.salearningschool.com/recent-posts/css-pseudo-classes/
+			https://www.sattacademy.com/css/css-pseudo-classes.php
+
+CSS Position:		https://w3programmers.com/bangla/css-positions/
+			http://www.websschool.com/css/css-positioning.html
+
+CSS Specificity:	https://markupschool.com/css/css-specificity
+
+
+
+
+
